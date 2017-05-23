@@ -1,0 +1,19 @@
+{
+  "name": "modern-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "repository": "https://github.com/zen-experiments/modern-css.git",
+  "author": "Dmitry Nutels <dnutels@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^2.2.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}

@@ -1,0 +1,18 @@
+$primary-font-family: "Roboto";
+$secondary-font-family: "Roboto Slab";
+
+$primary-font: $primary-font-family, sans-serif;
+$secondary-font: $secondary-font-family, sans-serif;
+
+@import url("https://fonts.googleapis.com/css?family=#{$secondary-font-family}:700");
+@import url("https://fonts.googleapis.com/css?family=#{$primary-font-family}:300,700");
+
+body {
+    font-family: $primary-font;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondary-font;
+    font-weight: 700;
+}
